@@ -1,4 +1,4 @@
-from src.app.entities.desconto import IDesconto
+from src_novo.entities.desconto import IDesconto
 
 
 class Pedido:

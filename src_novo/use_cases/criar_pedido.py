@@ -1,6 +1,6 @@
-from src.app.entities.pedido import Pedido
-from src.app.entities.desconto import DescontoNormal, DescontoVIP, DescontoPremium
-from src.app.gateways.pedido_gateway import IPedidoGateway
+from src_novo.entities.pedido import Pedido
+from src_novo.entities.desconto import DescontoNormal, DescontoVIP, DescontoPremium
+from src_novo.gateways.pedido_gateway import IPedidoGateway
 
 
 class CriarPedido:

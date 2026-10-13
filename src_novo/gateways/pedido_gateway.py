@@ -1,5 +1,5 @@
 import abc
-from src.app.entities.pedido import Pedido
+from src_novo.entities.pedido import Pedido
 
 
 class IPedidoGateway(abc.ABC):

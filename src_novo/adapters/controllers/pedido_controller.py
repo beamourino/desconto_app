@@ -1,4 +1,4 @@
-from src.app.use_cases.criar_pedido import CriarPedido
+from src_novo.use_cases.criar_pedido import CriarPedido
 
 
 class PedidoController:

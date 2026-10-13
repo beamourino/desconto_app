@@ -1,6 +1,6 @@
-from src.app.entities.pedido import Pedido
-from src.app.gateways.pedido_gateway import IPedidoGateway
-from src.app.frameworks.database.memory_database import MemoryDatabase
+from src_novo.entities.pedido import Pedido
+from src_novo.gateways.pedido_gateway import IPedidoGateway
+from src_novo.frameworks.database.memory_database import MemoryDatabase
 
 
 class MemoryPedidoRepository(IPedidoGateway):
