@@ -6,6 +6,7 @@ from src_novo.presenters.pedido_presenter import PedidoPresenter
 class PedidoController:
     def __init__(self, criar_pedido_use_case: CriarPedido, presenter: PedidoPresenter):
         self.criar_pedido_use_case = criar_pedido_use_case
+        self.presenter = presenter
 
     def criar_pedido(self, cliente: str, valor_original: float, tipo_desconto: str):
         input_dto = CriarPedidoInputDTO(
